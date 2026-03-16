@@ -1,6 +1,6 @@
 url: https://raw.githubusercontent.com/api-evangelist/department-of-housing-and-urban-development/refs/heads/main/apis.yml
 apis: []
-name: Department of Housing and Urban Development (HUD)
+name: Department of Housing and Urban Development
 tags:
   - Federal Government
 type: Contract
