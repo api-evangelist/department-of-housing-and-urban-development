@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "hud": "https://www.huduser.gov/",
+    "FairMarketRent": {
+      "@id": "hud:portal/datasets/fmr.html",
+      "@context": {
+        "year": "https://schema.org/datePublished",
+        "geography": "https://schema.org/areaServed",
+        "efficiency": "https://schema.org/value",
+        "oneBedroom": "https://schema.org/value",
+        "twoBedroom": "https://schema.org/value",
+        "threeBedroom": "https://schema.org/value",
+        "fourBedroom": "https://schema.org/value"
+      }
+    },
+    "IncomeLimit": {
+      "@id": "hud:portal/datasets/il.html",
+      "@context": {
+        "year": "https://schema.org/datePublished",
+        "geography": "https://schema.org/areaServed",
+        "medianFamilyIncome": "https://schema.org/value",
+        "low": "https://schema.org/lowPrice",
+        "veryLow": "https://schema.org/lowPrice",
+        "extremelyLow": "https://schema.org/lowPrice"
+      }
+    },
+    "MortgageLimit": {
+      "@id": "https://entp.hud.gov/idapp/html/hicostlook.cfm",
+      "@context": {
+        "state": "https://schema.org/addressRegion",
+        "county": "https://schema.org/addressLocality",
+        "msa": "https://schema.org/areaServed",
+        "fhaLimit": "https://schema.org/price",
+        "gseLimit": "https://schema.org/price",
+        "medianSalePrice": "https://schema.org/price"
+      }
+    },
+    "GeographicBoundary": {
+      "@id": "hud:hudgis",
+      "@context": {
+        "name": "https://schema.org/name",
+        "type": "https://schema.org/category",
+        "geometry": "https://schema.org/geo"
+      }
+    },
+    "Dataset": {
+      "@id": "https://schema.org/Dataset",
+      "@context": {
+        "id": "https://schema.org/identifier",
+        "title": "https://schema.org/name",
+        "description": "https://schema.org/description",
+        "publisher": "https://schema.org/publisher",
+        "license": "https://schema.org/license"
+      }
+    }
+  }
+}

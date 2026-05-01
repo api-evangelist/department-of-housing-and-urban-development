@@ -1,0 +1,73 @@
+name: Department of Housing and Urban Development Vocabulary
+description: >-
+  Shared vocabulary of terms used across HUD public APIs and data assets,
+  including the HUD USER FMR/IL API, the HUD eGIS storefront, and FHA tools.
+terms:
+  - term: HUD
+    definition: >-
+      The U.S. Department of Housing and Urban Development, the federal agency
+      overseeing housing and urban development programs.
+  - term: HUD USER
+    definition: >-
+      HUD's Office of Policy Development and Research clearinghouse for HUD
+      research, datasets, and publications.
+  - term: PD&R
+    definition: >-
+      HUD's Office of Policy Development and Research, which produces FMR,
+      Income Limit, and other housing data.
+  - term: Fair Market Rent (FMR)
+    definition: >-
+      An estimate of the amount (gross rent) that a property in a given area
+      typically rents for, used to set Housing Choice Voucher payment
+      standards.
+  - term: Small Area FMR
+    definition: >-
+      ZIP-code-level fair market rents calculated for selected metropolitan
+      areas to better reflect rental market variation.
+  - term: Income Limit (IL)
+    definition: >-
+      Income thresholds calculated as a function of an area's Median Family
+      Income, used to determine eligibility for HUD assisted housing programs.
+  - term: Median Family Income (MFI)
+    definition: >-
+      The median income of families in a defined geography that anchors the
+      calculation of HUD income limits.
+  - term: FHA
+    definition: >-
+      The Federal Housing Administration, a HUD office that insures loans for
+      single-family and multifamily homes.
+  - term: FHA Mortgage Limit
+    definition: >-
+      The maximum mortgage amount FHA will insure for a property in a given
+      area, varying by county and unit count.
+  - term: GSE Mortgage Limit
+    definition: >-
+      The conforming loan limit set for Government-Sponsored Enterprises such
+      as Fannie Mae and Freddie Mac.
+  - term: Median Sale Price
+    definition: >-
+      The median home sale price reported alongside FHA mortgage limits.
+  - term: PHA
+    definition: >-
+      A Public Housing Agency that administers HUD-funded affordable housing
+      programs at the local level.
+  - term: Continuum of Care (CoC)
+    definition: >-
+      A regional or local planning body coordinating HUD homeless assistance
+      funding.
+  - term: eGIS
+    definition: >-
+      HUD's enterprise GIS program that publishes geospatial datasets and
+      ArcGIS REST services.
+  - term: ArcGIS Service
+    definition: >-
+      A REST endpoint for a HUD geospatial dataset hosted on the eGIS
+      ArcGIS infrastructure.
+  - term: Open Data Catalog
+    definition: >-
+      The data.hud.gov catalog of HUD datasets curated by the Office of the
+      Chief Data Officer.
+  - term: Dataset
+    definition: >-
+      A collection of related data files published with metadata and
+      documentation.

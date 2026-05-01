@@ -1,0 +1,39 @@
+name: Department of Housing and Urban Development Capabilities
+description: >-
+  Capabilities exposed by HUD public APIs and tools, including the HUD USER
+  FMR/IL API, the HUD eGIS storefront, FHA tools, and the HUD Open Data
+  Catalog.
+capabilities:
+  - name: Fair Market Rent Lookup
+    description: Retrieve annual FMRs by metro, county, or ZIP geography.
+    api: department-of-housing-and-urban-development:hud-user-fmr-il-api
+  - name: Small Area FMR Lookup
+    description: Retrieve ZIP-code-level FMRs for designated metropolitan areas.
+    api: department-of-housing-and-urban-development:hud-user-fmr-il-api
+  - name: Income Limit Lookup
+    description: Retrieve annual income limits used to determine program eligibility.
+    api: department-of-housing-and-urban-development:hud-user-fmr-il-api
+  - name: Geography Listing
+    description: Enumerate states, metros, and counties supported by FMR/IL.
+    api: department-of-housing-and-urban-development:hud-user-fmr-il-api
+  - name: Token Authentication
+    description: Authenticate API calls using a free HUD USER bearer token.
+    api: department-of-housing-and-urban-development:hud-user-fmr-il-api
+  - name: ArcGIS Feature Services
+    description: Query HUD geospatial layers through ArcGIS REST endpoints.
+    api: department-of-housing-and-urban-development:hud-egis-arcgis
+  - name: Open Data Portal Browsing
+    description: Browse HUD geospatial datasets through the HUD-GIS open data portal.
+    api: department-of-housing-and-urban-development:hud-egis-arcgis
+  - name: CPD Activities Map Service
+    description: Map and query CPD-funded activities by geography.
+    api: department-of-housing-and-urban-development:hud-egis-arcgis
+  - name: FHA Mortgage Limit Lookup
+    description: Look up FHA and GSE mortgage limits and median sale prices.
+    api: department-of-housing-and-urban-development:fha-mortgage-limits
+  - name: Dataset Discovery
+    description: Search and discover HUD datasets on data.hud.gov and Data.gov.
+    api: department-of-housing-and-urban-development:hud-data-catalog
+  - name: Dataset Download
+    description: Retrieve dataset resources via the Data.gov CKAN API.
+    api: department-of-housing-and-urban-development:hud-data-catalog
