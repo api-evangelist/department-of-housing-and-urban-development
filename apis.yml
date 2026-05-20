@@ -145,6 +145,8 @@ apis:
         email: OpenData@hud.gov
         url: https://data.hud.gov/
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hud
   - type: Website
     url: https://www.hud.gov
   - type: Open Data
