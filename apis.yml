@@ -9,7 +9,7 @@ description: >-
   geospatial assets, the data.hud.gov data catalog, and various FHA tools
   including mortgage limits and condominium lookup services.
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Affordable Housing
   - Fair Market Rents
@@ -39,7 +39,7 @@ apis:
       metros, and counties as well as retrieving annual FMR and IL values for
       specified geographies and fiscal years. Access requires a free token
       obtained from the HUD USER portal.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.huduser.gov/portal/dataset/fmr-api.html
     baseURL: https://www.huduser.gov/hudapi/public
     tags:
@@ -72,7 +72,7 @@ apis:
       housing tax credit properties, and HUD-administered geographies. The
       services are accessible via the HUD-GIS open data portal as well as
       directly from egis.hud.gov.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://hudgis-hud.opendata.arcgis.com/
     baseURL: https://egis.hud.gov/ArcGIS/rest/services
     tags:
@@ -101,7 +101,7 @@ apis:
       Government-Sponsored Enterprise (GSE) mortgage limits for one or more
       areas, by state, county, or Metropolitan Statistical Area, with
       results that also include a Median Sale Price for each jurisdiction.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://entp.hud.gov/idapp/html/hicostlook.cfm
     baseURL: https://entp.hud.gov
     tags:
@@ -124,7 +124,7 @@ apis:
       housing, community development, and fair housing. Datasets are
       cross-listed on Data.gov and accessible via Data.gov's CKAN-compatible
       API.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://data.hud.gov/
     baseURL: https://catalog.data.gov/api/3
     tags:
