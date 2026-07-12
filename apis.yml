@@ -145,6 +145,8 @@ apis:
         email: OpenData@hud.gov
         url: https://data.hud.gov/
 common:
+  - type: DomainSecurity
+    url: security/department-of-housing-and-urban-development-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/hud
   - type: Website
@@ -175,6 +177,8 @@ common:
     url: vocabulary/department-of-housing-and-urban-development-vocabulary.yml
   - type: Capabilities
     url: capabilities/department-of-housing-and-urban-development-capabilities.yml
+  - url: https://www.hud.gov/rss.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
