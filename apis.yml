@@ -9,7 +9,19 @@ description: >-
   geospatial assets, the data.hud.gov data catalog, and various FHA tools
   including mortgage limits and condominium lookup services.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/department-of-housing-and-urban-development.png
 tags:
   - Affordable Housing
   - Fair Market Rents
