@@ -187,8 +187,6 @@ common:
     url: json-ld/department-of-housing-and-urban-development-context.jsonld
   - type: Vocabulary
     url: vocabulary/department-of-housing-and-urban-development-vocabulary.yml
-  - type: Capabilities
-    url: capabilities/department-of-housing-and-urban-development-capabilities.yml
   - url: https://www.hud.gov/rss.xml
     type: Blog
 maintainers:
