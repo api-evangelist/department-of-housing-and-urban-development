@@ -37,7 +37,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/department-of-housing-and-urban-development/refs/heads/main/apis.yml
 created: '2024-12-25'
 modified: '2026-04-28'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 kind: government
 position: Producer
 access: Public
