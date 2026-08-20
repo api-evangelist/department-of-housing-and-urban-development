@@ -25,6 +25,17 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/department
 tags:
   - Affordable Housing
   - Fair Market Rents
+  - Federal-Government
+  - FHA
+  - GIS
+  - Housing
+  - HUD
+  - Income Limits
+  - Mortgage
+  - Open Data
+tags_raw:
+  - Affordable Housing
+  - Fair Market Rents
   - Federal Government
   - FHA
   - GIS
